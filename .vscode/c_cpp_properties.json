@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/apps/spp_and_le/examples/led_blink",
+                "${workspaceFolder}/include_lib",
+                "${workspaceFolder}/apps/spp_and_le/examples/hpy_senser/sensor/LED",
+                "${workspaceFolder}/apps/spp_and_le/examples/hpy_senser/basic_drivers",
+                "${workspaceFolder}/apps/spp_and_le/include",
+                "${workspaceFolder}/apps/spp_and_le/examples/hpy_senser/sensor",
+                "${workspaceFolder}/apps/spp_and_le/examples/hpy_senser",
+                "${workspaceFolder}/include_lib/driver/cpu/bd19",
+                "${workspaceFolder}/apps/spp_and_le/examples/hpy_senser/sensor/button",
+                "${workspaceFolder}/include_lib/driver"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "F:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
